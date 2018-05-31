@@ -675,7 +675,7 @@ public class HeadPagerFragmentActivity extends android.support.v7.app.AppCompatA
 
       //  editor.apply();
         editor.commit();
-        Toast.makeText(this,"saved",Toast.LENGTH_SHORT).show();
+       // Toast.makeText(this,"saved",Toast.LENGTH_SHORT).show();
 
 
     }

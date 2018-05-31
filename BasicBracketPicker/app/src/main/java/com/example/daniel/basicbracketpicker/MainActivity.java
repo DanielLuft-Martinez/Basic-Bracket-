@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity  implements  AsyncResponse{
 
        //editor.apply();
         editor.commit();
-        Toast.makeText(this,"saved",Toast.LENGTH_SHORT).show();
+       // Toast.makeText(this,"saved",Toast.LENGTH_SHORT).show();
 
 
     }
@@ -169,7 +169,7 @@ public class MainActivity extends AppCompatActivity  implements  AsyncResponse{
 
 
        //editor.apply();
-        Toast.makeText(this,"loaded",Toast.LENGTH_SHORT).show();
+     //   Toast.makeText(this,"loaded",Toast.LENGTH_SHORT).show();
 
     }
 
