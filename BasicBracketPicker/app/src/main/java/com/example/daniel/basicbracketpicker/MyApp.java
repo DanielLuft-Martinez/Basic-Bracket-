@@ -3,6 +3,8 @@ package com.example.daniel.basicbracketpicker;
 import android.app.Application;
 
 public class MyApp extends Application {
+    //this needs to masde singleton (lazy intance) if kept local, try and get rid of the extra stuff or move it off device
+
 
 
 
@@ -12,6 +14,8 @@ public class MyApp extends Application {
     public int round = 1;
 
     public boolean firstLoad = true;
+
+    public boolean loggedIn = false;
 
 
     public String[] getBrack(){
